@@ -56,3 +56,5 @@ function uploadData() {
         }
     };
 };
+
+addEventListener('online', uploadData);
